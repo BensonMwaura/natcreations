@@ -1,0 +1,62 @@
+{
+  "short_name": "natcreations",
+  "name": "Nature Creations",
+  "description": "Designing for the best brands",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/iconx/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/android-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/apple-touch-icon-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/android-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/apple-touch-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/android-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/iconx/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#EEE",
+  "theme_color": "#f7f6a0",
+  "display": "standalone",
+  "orientation": "portrait"
+}
