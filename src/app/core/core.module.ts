@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from './../shared/shared.module';
 import { AboutModule } from '../about/about.module';
 import { NotFoundModule } from '../not-found/not-found.module';
+import { FooterComponent } from './components/footer/footer.component';
 // import { LogoTextComponent } from './components/logo-text/logo-text.component';
 // import { ForeLeafComponent } from './components/fore-leaf/fore-leaf.component';
 // import { BackLeafComponent } from './components/back-leaf/back-leaf.component';
@@ -16,9 +17,10 @@ import { NotFoundModule } from '../not-found/not-found.module';
     AboutModule,
     NotFoundModule,
   ],
-  declarations: [],
+  declarations: [FooterComponent],
   exports: [
     // AboutComponent
+    FooterComponent
   ]
 })
 export class CoreModule { }
