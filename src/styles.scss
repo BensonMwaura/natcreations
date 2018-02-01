@@ -2,7 +2,7 @@
 @import './assets/theme.scss';
 
 \:root {
- font-size: 10px;
+ font-size: 16px;
 }
 html, body {
   font-family: 'Roboto', sans-serif;
@@ -78,9 +78,9 @@ img {
 .content {
   display: grid;
   grid-template-columns:
-    [full-start] minmax(1em, 1fr)
+    [full-start] minmax(0.625em, 1fr)
     [main-start] minmax(0, 50em) [main-end]
-    minmax(1em, 1fr) [full-end];
+    minmax(0.625em, 1fr) [full-end];
   // grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
   // margin-top: 5rem;
@@ -104,8 +104,35 @@ img {
    background: {
       color: rgb(81, 240, 76);
     }
-  // media query
-  @media (max-width: 26.875em) {
-    grid-row: span 3;
+ }
+
+ .content__jumbotron {
+   display: flex;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 2em;
+   grid-auto-rows: minmax(100px, auto);
+
+   div {
+    background: {
+      color: pink;
+    }
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+   }
+
+   // media query
+  @media (max-width: 26.5625em) {
+    grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
+    grid-gap: 0;
   }
+ }
+
+ .content__jumbotron--cta {
+  text-align: left;
+ }
+
+ .content__jumbotron--illustration {
+  align-self: center;
  }

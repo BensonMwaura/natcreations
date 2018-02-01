@@ -4,6 +4,7 @@ import { SharedModule } from './../shared/shared.module';
 import { AboutModule } from '../about/about.module';
 import { NotFoundModule } from '../not-found/not-found.module';
 import { FooterComponent } from './components/footer/footer.component';
+// import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 // import { LogoTextComponent } from './components/logo-text/logo-text.component';
 // import { ForeLeafComponent } from './components/fore-leaf/fore-leaf.component';
 // import { BackLeafComponent } from './components/back-leaf/back-leaf.component';
@@ -17,7 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutModule,
     NotFoundModule,
   ],
-  declarations: [FooterComponent],
+  declarations: [FooterComponent ],
   exports: [
     // AboutComponent
     FooterComponent

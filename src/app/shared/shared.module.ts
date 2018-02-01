@@ -7,6 +7,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { LogoTextComponent } from './../core/components/logo-text/logo-text.component';
 import { BackLeafComponent } from '../core/components/back-leaf/back-leaf.component';
 import { ForeLeafComponent } from '../core/components/fore-leaf/fore-leaf.component';
+import { JumbotronComponent } from './../core/components/jumbotron/jumbotron.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,7 @@ import { ForeLeafComponent } from '../core/components/fore-leaf/fore-leaf.compon
     MatIconModule,
     FlexLayoutModule
   ],
-  declarations: [ LogoTextComponent, BackLeafComponent, ForeLeafComponent],
+  declarations: [ LogoTextComponent, BackLeafComponent, ForeLeafComponent, JumbotronComponent],
   exports: [
     FormsModule,
     ReactiveFormsModule,
@@ -36,6 +37,7 @@ import { ForeLeafComponent } from '../core/components/fore-leaf/fore-leaf.compon
     FlexLayoutModule,
     LogoTextComponent,
     BackLeafComponent,
-    ForeLeafComponent ]
+    ForeLeafComponent,
+    JumbotronComponent]
 })
 export class SharedModule { }
