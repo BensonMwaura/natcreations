@@ -17,6 +17,27 @@ figure {
 img {
   max-width: 100%;
 }
+
+.company {
+  :after {
+    padding-right: 1rem;
+  }
+}
+
+.company__name {
+  font-family: 'Aclonica', sans-serif;
+  vertical-align: center;
+  @media (min-width: 26.5625em) {
+    font-size: 1.125em;
+  }
+}
+
+.nav--spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
 .header {
   position: relative;
   height: 600px;
