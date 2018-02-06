@@ -11,6 +11,6 @@ import { ProductsComponent } from './products.component';
     SharedModule,
     ProductsRoutingModule
   ],
-  declarations: [ProductsComponent]
+  declarations: [ProductsComponent ]
 })
 export class ProductsModule { }

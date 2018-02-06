@@ -3,8 +3,9 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from './../shared/shared.module';
 import { AboutModule } from '../about/about.module';
 import { NotFoundModule } from '../not-found/not-found.module';
-import { ProductsModule } from '../products/products.module';
+import { ProductsModule } from './../products/products.module';
 import { FooterComponent } from './components/footer/footer.component';
+import { SeoService } from './services/seo.service';
 // import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 // import { LogoTextComponent } from './components/logo-text/logo-text.component';
 // import { ForeLeafComponent } from './components/fore-leaf/fore-leaf.component';
@@ -24,6 +25,7 @@ import { FooterComponent } from './components/footer/footer.component';
   exports: [
     // AboutComponent
     FooterComponent
-  ]
+  ],
+  providers: [SeoService ]
 })
 export class CoreModule { }
