@@ -8,6 +8,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   // max-width: 1024px;
   height: 100%;
+  margin: 0;
 }
 
 figure {
@@ -157,3 +158,6 @@ img {
  .content__jumbotron--illustration {
   align-self: center;
  }
+.content--footer {
+  bottom: 0;
+}
