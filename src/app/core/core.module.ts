@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule } from './../shared/shared.module';
+import { SharedModule } from '../shared/shared.module';
 import { AboutModule } from '../about/about.module';
 import { ProductsModule } from '../products/products.module';
 import { NotFoundModule } from '../not-found/not-found.module';
-// import { ProductsModule } from './../products/products.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { SeoService } from './services/seo.service';
 // import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
