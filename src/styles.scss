@@ -117,6 +117,7 @@ router-outlet {
     minmax(0.625em, 1fr) [full-end];
   // grid-gap: 1em;
   grid-auto-rows: minmax(100px, auto);
+  height: 100vh;
   // margin-top: 5rem;
 
   // media query
